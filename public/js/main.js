@@ -133,4 +133,63 @@
 //     alert("Vous êtes majeur tout pile ! Tout juste")
 // }
 
+// EXO 8 AVANCE
+
+// let anneeBorn = parseInt(prompt("Quelle est votre année de naissance ?"))
+// let age;
+// let anneeActuelle = 2021
+// age = anneeActuelle - anneeBorn
+
+// if (age < 0) {
+//     alert("En théorie vous n'existez pas ...")
+// }
+// else if (age > 100) {
+//     alert("Trop vieux ! N'allez pas voir ce film pour rester en vie")
+// }
+// else if (age > 18) {
+//     alert("Vous êtes majeur, vous pouvez réserver")
+// }
+// else if (age < 18) {
+//     alert("Vous n'êtes malheureusement pas majeur, accès interdit")
+// }
+// else if (age = 18) {
+//     alert("Vous êtes majeur tout pile ! Tout juste")
+// }
+
 // EXO 9
+
+let riche = prompt("Êtes-vous riche ?")
+let vac = prompt("Voulez-vous partir en vacances ?")
+let chat = prompt("Avez-vous un chat ?")
+
+if (riche == "oui") {
+    riche = true
+}
+else {
+    riche = false
+}
+if (vac == "oui") {
+    vac = true
+}
+else {
+    vac = false
+}
+if (chat == "oui") {
+    chat = true
+}
+else {
+    chat = false
+}
+
+if (!vac) {
+    alert("Vous ne partez pas en vacances snif")
+}
+if (!riche || chat) {
+    alert("Même si vous le voulez, vous ne pouvez pas partir.")
+}
+if (riche && !chat) {
+    alert("Vous pourriez partir en vacances")
+}
+if (riche && !chat && vac) {
+    alert("Partez l'esprit libre")
+}
