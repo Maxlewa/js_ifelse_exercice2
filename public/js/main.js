@@ -95,3 +95,42 @@
 
 // EXO 7
 
+// let questionUne = prompt("Capitale de la Belgique ?")
+// let questionDeux = prompt("Capitale du Canada ?")
+// let reponseUne = "Bruxelles"
+// let reponseDeux = "Ottawa"
+
+// if (questionUne == reponseUne && questionDeux == reponseDeux) {
+//     alert("Félicitations, les deux réponses sont justes !")
+// }
+// else if (questionUne != reponseUne && questionDeux == reponseDeux) {
+//     alert("Presque, la réponse à la première question est fausse !")
+// }
+// else if (questionUne == reponseUne && questionDeux != reponseDeux) {
+//     alert("Presque, la réponse à la deuxième question est fausse !")
+// }
+// else {
+//     alert("Tu as échoué aux 2 questions ...")
+// }
+
+// EXO 8
+
+// let age = parseInt(prompt("Quel est votre âge ?"))
+
+// if (age < 0) {
+//     alert("En théorie vous n'existez pas ...")
+// }
+// else if (age > 100) {
+//     alert("Trop vieux ! N'allez pas voir ce film pour rester en vie")
+// }
+// else if (age > 18) {
+//     alert("Vous êtes majeur, vous pouvez réserver")
+// }
+// else if (age < 18) {
+//     alert("Vous n'êtes malheureusement pas majeur, accès interdit")
+// }
+// else if (age = 18) {
+//     alert("Vous êtes majeur tout pile ! Tout juste")
+// }
+
+// EXO 9
