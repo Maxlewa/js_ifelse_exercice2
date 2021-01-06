@@ -40,15 +40,58 @@
 
 // EXO 4
 
-let phrase = prompt("Votre phrase :")
-let estimation = parseInt(prompt("Nombre de caractères dans votre phrase à votre avis ?"))
+// let phrase = prompt("Votre phrase :")
+// let estimation = parseInt(prompt("Nombre de caractères dans votre phrase à votre avis ?"))
 
-if (phrase.length == estimation) {
-    alert(`Correct ! Votre phrase fait bien ${phrase.length} caractères`)
-}
+// if (phrase.length == estimation) {
+//     alert(`Correct ! Votre phrase fait bien ${phrase.length} caractères`)
+// }
 
-else {
-    alert(`Faux, votre phrase faisait ${phrase.length} caractères et vous étiez à ${Math.abs(estimation - phrase.length)} caractères de la bonne réponse`)
-}
+// else {
+//     alert(`Faux, votre phrase faisait ${phrase.length} caractères et vous étiez à ${Math.abs(estimation - phrase.length)} caractères de la bonne réponse`)
+// }
 
 // EXO 5
+
+// let prenom = prompt("Prénom ?")
+
+// if (prenom === "") {
+//     reponse = prompt("Attention, vous devez remplir le champs ci-dessous, quel est votre prénom ?")
+//     alert(`Bonjour, ${reponse}`)
+// }
+
+// else {
+//     alert(`Bonjour, ${prenom}`)
+// }
+
+// EXO 6
+
+// let formule;
+// let confirmation;
+
+// if (confirm("Abonnez-vous")) {
+//     formule = prompt("Formule Luxe ou Normal ?")
+// }
+// else {
+//     alert("Dommage")
+// }
+
+// if (formule == "Luxe") {
+//     alert("Félicitations, vous avez choisi la formule Luxe !")
+// }
+// else if (formule == "Normal") {
+//     alert("Félicitations, vous avez choisi la formule Normal !")
+// }
+// else {
+//     confirmation = confirm("T'es sûr bg ?")
+// }
+
+// if (confirmation) {
+//     alert("Dommage fratello ziar bien")
+// }
+// else {
+//     formule = prompt("Luxe ou Normal ?")
+// }
+
+// EXO 7
+
